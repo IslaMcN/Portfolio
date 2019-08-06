@@ -388,10 +388,7 @@ input, select, textarea {
 		font-size: 1.325rem;
 	}
 
-		h3.major {
-			margin: 0 0 1.875rem 0;
-		}
-
+		
 			h3.major:after {
 				bottom: -0.75rem;
 			}
@@ -431,9 +428,8 @@ input, select, textarea {
 		background: rgba(255, 255, 255, 0.075);
 		border-radius: 0.25rem;
 		font-family: "Courier New", monospace;
-		font-size: 0.8rem;
-		margin: 0 0.25rem;
-		padding: 0.25rem 0.65rem;
+		font-size: 0.75rem;
+		margin-bottom: 2%;
 	}
 
 	pre {
@@ -506,13 +502,8 @@ input, select, textarea {
 			font-size: 1rem;
 		}
 
-			h3.major {
-				margin: 0 0 1.875rem 0;
-			}
+			
 
-				h3.major:after {
-					bottom: -0.75rem;
-				}
 
 		h4 {
 			font-size: 1rem;
@@ -2422,6 +2413,7 @@ input, select, textarea {
 
 		.panel .span-2-75 {
 			width: 27.5rem;
+			margin-bottom: 2%;
 		}
 
 		.panel .span-3 {
@@ -3415,6 +3407,7 @@ input, select, textarea {
 		}
 		.panel .content ul {
 			color:#000000;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
 		}
 		.panel.spotlight .image {
 			position: absolute;
@@ -3691,4 +3684,7 @@ input, select, textarea {
 				transform: none;
 			}
 
+	}
+	.span-2-75{
+		margin: 0 2%;
 	}
